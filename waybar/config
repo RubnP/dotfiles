@@ -1,0 +1,64 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["cpu", "memory", "temperature", "custom/nightlight", "tray"],
+
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-click": "hyprctl dispatch workspace {id}",
+    "format-icons": {
+      "1": "󰎤",
+      "2": "󰎧",
+      "3": "󰎪",
+      "4": "󰎭",
+      "5": "󰎱",
+      "6": "󰎴",
+      "7": "󰎷",
+      "8": "󰎺",
+      "9": "󰎽",
+      "10": "󰏀"
+    },
+    "persistent-workspaces": {
+      "*": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    }
+  },
+
+
+  "clock": {
+    "format": " {:%H:%M}",
+    "on-click": "gsimplecal",
+    "interval": 1
+  },
+
+  "cpu": {
+    "format": " {usage}%",
+    "tooltip": true
+  },
+
+  "memory": {
+    "format": " {used:0.1f}G",
+    "tooltip": true
+  },
+
+  "temperature": {
+    "critical-threshold": 80,
+    "format": " {temperatureC}°C",
+    "tooltip": true
+  },
+
+  "tray": {
+    "icon-size": 16,
+    "spacing": 8
+  },
+
+  "custom/nightlight": {
+    "format": "🌙",
+    "on-click": "~/.config/waybar/scripts/nightlight-toggle.sh",
+    "tooltip": "Toggle Night Light"
+  }
+
+}
+
