@@ -1,0 +1,8 @@
+# personal or large paths to not track
+.ssh/
+.gnupg/
+.cache/
+Downloads/
+*.pem
+*.key
+.local/share/Trash/*
