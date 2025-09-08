@@ -40,6 +40,7 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+pokemon-colorscripts-git
 polkit-kde-agent
 qt5-wayland
 qt6-wayland
@@ -71,4 +72,8 @@ xf86-video-ati
 xf86-video-nouveau
 xorg-server
 xorg-xinit
+yay
+yay-debug
 zram-generator
+zsh
+zsh-completions
