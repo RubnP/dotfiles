@@ -1,0 +1,9 @@
+# Button layout for wlogout
+# format: <label> <action> <icon>
+
+lock,   swaylock,              system-lock-screen
+logout, hyprctl dispatch exit, system-log-out
+suspend, systemctl suspend,    system-suspend
+reboot, systemctl reboot,      system-reboot
+shutdown, systemctl poweroff,  system-shutdown
+
