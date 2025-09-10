@@ -4,7 +4,7 @@
   "height": 28,
   "modules-left": ["hyprland/workspaces", "hyprland/window"],
   "modules-center": ["clock"],
-  "modules-right": ["pulseaudio", "network", "battery", "bluetooth", "tray"],
+  "modules-right": ["pulseaudio", "network", "battery", "custom/wallpaper", "tray"],
 
   "clock": {
     "format": "{:%Y-%m-%d %H:%M}"
@@ -35,6 +35,11 @@
   "tray": {
     "icon-size": 16,
     "spacing": 8
+  },
+
+  "custom/wallpaper": {
+  "format": "🖼",
+  "tooltip": "Change wallpaper",
+  "on-click": "~/.local/bin/wallpaper-picker"
   }
 }
-

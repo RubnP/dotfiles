@@ -25,6 +25,11 @@ window#waybar {
   padding: 0 10px;
 }
 
+#custom-wallpaper {
+    padding: 0 10px;
+    color: #33ccff;
+}
+
 #pulseaudio,
 #network,
 #battery,
@@ -32,4 +37,5 @@ window#waybar {
 #tray {
   padding: 0 10px;
 }
+
 
