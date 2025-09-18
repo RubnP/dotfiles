@@ -102,5 +102,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-pokemon-colorscripts --random --no-title
-alias cfg='/usr/bin/git --git-dir=/home/ruben/.cfg/ --work-tree=/home/ruben'
